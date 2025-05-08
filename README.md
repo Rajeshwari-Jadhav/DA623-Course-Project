@@ -9,17 +9,17 @@ This is a two-page **Streamlit web application** designed to recognize and map *
 * Upload or capture an image of a **Bharatanatyam mudra**.
 * The app uses a trained **CNN-based classifier** to predict the corresponding mudra.
 * Built using:
-  * A **custom CNN model** (from scratch)
-  * A **pre-trained MobileNetV2 model** (for improved accuracy and performance)
+  * A **Custom CNN model** (from scratch)
+  * A **Pre-trained MobileNetV2 model** (for improved accuracy and performance)
 
 ### 2. **Mudra Mapper**
 
-* Search mudras by **Sanskrit word** or **semantic meaning**.
-* Paste a **Sanskrit shloka** to retrieve relevant mudras.
+* Search mudras by **Sanskrit word** or **Semantic Meaning**.
+* Paste a **Sanskrit Shloka** to retrieve relevant mudras.
 * Displays:
-  * **Matching mudra names**
-  * **Descriptions of the mudras**
-  * **Reference images**
+  * **Matching Mudra Names**
+  * **Descriptions of the Mudras**
+  * **Reference Images**
 
 ---
 
