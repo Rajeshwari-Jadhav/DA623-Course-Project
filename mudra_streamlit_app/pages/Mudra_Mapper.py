@@ -53,7 +53,7 @@ if option == "Search by Word/Meaning":
         if results:
             st.markdown(f"### 🔍 Results for: *{query}*")
             for res in results:
-                st.markdown(f"** Mudra:** {res['mudra']}")
+                st.markdown(f"**🌸 Mudra:** {res['mudra']}")
                 st.markdown(f"**Word:** {res['word']}")
                 st.markdown(f"**Meanings:** {', '.join(res['translations'])}")
                 img_path = os.path.join("All_Mudras", f"{res['mudra'].lower()}.jpg")
@@ -68,9 +68,9 @@ elif option == "Search by Shloka":
     if st.button("Find Mudras") and shloka_text:
         matched_mudras = get_mudras_for_shloka(shloka_text)
         if matched_mudras:
-            st.markdown("### 🪷 Mudras matching this shloka:")
+            st.markdown("###🪷 Mudras matching this shloka:")
             for mudra, matches in matched_mudras.items():
-                st.markdown(f"**🖐️ Mudra:** {mudra}")
+                st.markdown(f"**🌸 Mudra:** {mudra}")
                 for m in matches:
                     st.markdown(f"↳ Word: *{m['word']}*, Meanings: {', '.join(m['translation'])}")
                 img_path = os.path.join("All_Mudras", f"{mudra.lower()}.jpg")

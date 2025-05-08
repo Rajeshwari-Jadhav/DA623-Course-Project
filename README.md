@@ -14,11 +14,11 @@ This is a two-page **Streamlit web application** designed to recognize and map *
 
 ### 2. **Mudra Mapper**
 
-* Search mudras by **Sanskrit word** or **meaning**.
+* Search mudras by **Sanskrit word** or **semantic meaning**.
 * Paste a **Sanskrit shloka** to retrieve relevant mudras.
 * Displays:
-  * Matching **mudra names**
-  * **Descriptions** of the mudras
+  * **Matching mudra names**
+  * **Descriptions of the mudras**
   * **Reference images**
 
 ---
@@ -59,13 +59,14 @@ The mudra image dataset used for training was sourced from [Kaggle](https://www.
 2. **Install dependencies**
 
    ```bash
+   cd mudra_streamlit_app
    pip install -r requirements.txt
    ```
 
 3. **Run the Streamlit app**
 
    ```bash
-   streamlit run "mudra_streamlit_app\app.py".py
+   streamlit run "app.py".py
    ```
 
 ---
